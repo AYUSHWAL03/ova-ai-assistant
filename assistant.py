@@ -3,7 +3,7 @@ import pyttsx3 as tts
 from helper import helper
 r = sr.Recognizer()
 m = sr.Microphone()
-wakeWords = "Hello"
+wakeWords = "Ova"
 def SpeakTextLoud(text):
     engine = tts.init()
     engine.say(text)
